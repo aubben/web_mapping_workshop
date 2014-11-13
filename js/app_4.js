@@ -59,7 +59,7 @@ var clickHandler = function(e){
   $('#info').fadeIn(400,function(){
     var info = '';
 
-    info = '<div>Fast Food Info ' + '<br>'+feature.properties.name+'<br>'+ feature.properties.cuisine+'<br>'+ feature.properties.opening_hours+'<br>'+ '<a href="feature.properties.website"></a>' + '</div>';
+    info = '<div>Fast Food Info ' + '<br>'+feature.properties.name+'<br>'+ feature.properties.cuisine+'<br>'+ feature.properties.opening_hours+'<br>'+ <a href="feature.properties.website"></a> + '</div>';
 
     $('#info').append(info);
   });
