@@ -59,7 +59,7 @@ var clickHandler = function(e){
   $('#info').fadeIn(400,function(){
     var info = '';
 
-    info = '<div>You clicked on the layer with the id of ' + feature.properties.id + '</div>';
+    info = '<div>Fast Food Info ' + layer.feature.properties.name+'<br>'+layer.feature.properties.cuisine+'<br>'+layer.feature.properties.opening_hours+'<br>'+layer.feature.properties.website + '</div>';
 
     $('#info').append(info);
   });
